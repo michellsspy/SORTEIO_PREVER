@@ -1,0 +1,20 @@
+Estou tentando criar um esborço de programa para criar um conjunto de números com maior probabilidade de serem sordeados.
+
+O sorteio tem três sorteios semanais: às terças, às quintas e aos sábados onde são sorteados 6 numeros por sorteio. E desses o apostador precisa acerta os 6 sendo que pode escolher até 15 número por vez.
+
+Sendo assim, fazendo uso do histório dos sorteios desde o inicio que estaram listados em um df com nome sorteios_df, preciso criar um script python que analise esse df e retorne os 15 numeros com maior probabilidade de acerto para cada dia da semana que terá sorteio.
+
+O dataframe de nome "sorteios_df" com o historico dos sorteios, terá duas colunas de nomes "data_sorteio" e "num_sorteados". 
+
+data_sorteio = a data que ocorreu o sorteio
+num_sorteados = lista com os 6 numeros contemplados
+
+A segunda tabela será uma dimensão tempo... um dataframe com as datas, dias da semana, etc...
+
+As coluna de tempo que pesno que usaremos são, data e dia_semana para cruzar as datas do sorteio e dia da semana respectivo. Assim ao prever os numeros fica fácil destinar a previsão para cada dia da semana com base na data atual.
+
+Se hoje é dia 25/05/2025, domingo... conseguimos ver que teremos que prever os 15 numeros com maior probilidade para os sorteios para terça, quinta e sábado com base no historico oferecido.
+
+Se hoje fosse dia 28/05/2025, quarta-feira... então teriamos que prever os 15 numeros com maior probilidade para os sorteios para quinta e sábado com base no historico oferecido e assim por diante.
+
+Consegue criar esse script?

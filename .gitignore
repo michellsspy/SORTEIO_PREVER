@@ -1,0 +1,62 @@
+venv/
+venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs
+*.log
+*.sqlite3
+*.db
+*.DS_Store
+*.env
+*.env.*
+*.coverage
+*.cover
+*.tox/
+*.nox/
+*.pytest_cache/
+*.mypy_cache/
+*.hypothesis/
+*.coverage.*
+/venv/
+# Jupyter Notebook checkpoints  
+.ipynb_checkpoints/
+# PyCharm project files
+.idea/
+# VS Code settings
+.vscode/
+# PyInstaller
+# PyInstaller creates a build folder and a dist folder
+build/
+dist/
+# PyInstaller creates a spec file
+*.spec
+# Cython debug symbols
+cython_debug/
+# Pytest cache
+.cache/
+# Coverage reports
+.coverage
+# Pytest HTML reports
+*.html
+# Pytest XML reports
+*.xml
+# Sphinx documentation
+docs/_build/
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+# Local configuration files
+*.local
+# Local environment variables
+.env.local
+# Local configuration files
+*.local.json
+# Local configuration files
+*.local.yaml
+# Local configuration files
+*.local.yml
+# Local configuration files
+*.local.ini
